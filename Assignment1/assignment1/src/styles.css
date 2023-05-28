@@ -1,13 +1,13 @@
 h2{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 h3{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     color: #444444;
 }
 
@@ -27,14 +27,14 @@ h3{
 }
 
 .CategoryRow{
-    width: 96%;
-    max-width: 100%;
-    /* display: flex;
+    margin-bottom: 40px;
+    display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center; */
-    display: grid;
-    place-items: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    /* display: grid;
+    place-items: center; */
 }
 
 .BlankCol{
@@ -68,15 +68,17 @@ h3{
 }
 
 .Categories{
+    padding: 40px 0px;
     text-align: center;
-    color: #333333;
+    color: #1B998B;
 }
 
 .CategoryCard{
-    width: 28%;
+    width: 24%;
     border: 2px solid #1B998B;
     border-radius: 20px;
     text-align: center;
+    padding: 20px 0px;
 }
 
 .CategoryTitle{
@@ -102,11 +104,11 @@ h3{
     color: #333333;
     border-width: 0px;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
     background-color: #C5D86D;
-    padding: 10px 25px;
+    padding: 10px 40px;
     display: inline-block;
     position: relative;
 }
