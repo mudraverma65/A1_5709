@@ -1,5 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
+import Categories from './Categories';
 import './styles.css';
 // import './App.css';
 
@@ -8,7 +9,9 @@ function App() {
     
     <div className="App">
       <Header/>
+      <Categories/>
       <Footer/>
+      
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
