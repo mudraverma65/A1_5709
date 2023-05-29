@@ -1,6 +1,8 @@
 h2{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    margin: 0;
+    color: #1B998B;
     font-size: 28px;
 }
 
@@ -285,18 +287,77 @@ input[type="text"] {
     padding: 20px 0;
 }
 
-.SearchTitle{
+/* .SearchTitle{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-size: 30px;
     color: #1B998B;
     font-weight: 700;
-}
+} */
 
 .LocationTitle{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #333333;
+}
+
+.ProfileBioRow{
+    column-gap: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.ProfileImageCol{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.ProfileImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.ProfileDesCol{
+    margin: auto;
+    width: 40%;
+    
+}
+
+.ProfileData h4{
+    margin: 10px 0;
+}
+
+.ProfileBio body{
+    margin-top: 20px;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.ProfileContactRow{
+    width: 60%;
+    background-color: #C5D86D;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3% 0;
+    margin: 80px auto;
+}
+
+.ContactInfo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ContactInfo body{
+    color: #333333;
+    line-height: 1.7em;
 }
 
 @media only screen and (max-width: 767px){
@@ -440,5 +501,41 @@ input[type="text"] {
 
     .LocationTitle {
         font-size: 14px;
+    }
+
+    .ProfileBioRow{
+        display: block;
+    }
+
+    .ProfileImageCol {
+        width: 80%;
+    }
+
+    .ProfileImg {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+
+    .ProfileDesCol {
+        width: 100%;
+    }
+
+    .ProfileContactRow {
+        padding: 5% 0;
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    .ContactTitle h2{
+        font-size: 24px;
+    }
+
+    .ProfileBio body {
+        font-size: 16px;
+    }
+
+    body{
+        font-size: 16px;
     }
 }
