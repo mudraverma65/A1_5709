@@ -1,7 +1,7 @@
 import Header from './Header';
 import Footer from './Footer';
 import HomePage from './HomePage';
-import ProfileResults from './ProfileResults';
+import SearchResults from './SearchResults';
 import './styles.css';
 // import './App.css';
 
@@ -10,8 +10,8 @@ function App() {
     
     <div className="App">
       <Header/>
-      <ProfileResults/>
-      <HomePage/>
+      <SearchResults/>
+      {/* <HomePage/> */}
       <Footer/>
       
       {/* <header className="App-header">

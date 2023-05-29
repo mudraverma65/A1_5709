@@ -10,12 +10,14 @@ function ProfileResults(){
                 </div>
                 <div class = 'ProfileCol'>
                     <h3>Ted Mosby</h3>
-                    <body>morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea</body>
+                    <div class = 'ProfileDes'><body>morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea</body></div>
                 </div>
                 <div class = 'ProfileRatingCol'>
                     <div class = 'RatingR'>4.2</div>
                     <h5>Rating</h5>
-                    <div class = 'ButtonS'>View Profile</div>
+                    <div class ='ViewProfile'>
+                        <div class = 'ButtonS'>View Profile</div>
+                    </div> 
                 </div>
             </div>
         </div>
