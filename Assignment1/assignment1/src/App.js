@@ -1,6 +1,7 @@
 import Header from './Header';
 import Footer from './Footer';
-import Categories from './Categories';
+import HomePage from './HomePage';
+import ProfileResults from './ProfileResults';
 import './styles.css';
 // import './App.css';
 
@@ -9,7 +10,8 @@ function App() {
     
     <div className="App">
       <Header/>
-      <Categories/>
+      <ProfileResults/>
+      <HomePage/>
       <Footer/>
       
       {/* <header className="App-header">
