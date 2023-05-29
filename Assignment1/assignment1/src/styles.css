@@ -94,7 +94,7 @@ h3{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
     background-color: #1b998b;
-    padding: 10px 25px;
+    padding: 14px 30px;
     display: inline-block;
     position: relative;    
 }
@@ -153,21 +153,89 @@ h3{
     padding-top: 4%;
 }
 
+.DisplayAll{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 767px){
 
     .Header{
-        width: 98%;
+        width: 90%;
         height: 80px;
+        padding: 10px 0;
     }
 
     .Circle{
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 
 
     .ButtonP{
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .CategoryRow{
+        margin-bottom: 40px;
+        display: block;
+        justify-content: initial;
+        flex-direction: initial;
+        align-items: initial;
+    }
+
+    .CategoryCard{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        padding: 15px 0px;
+    }
+
+    .category-logo{
+        text-align: left;
+        width: 42%;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .ButtonS{
         font-size: 14px;
-        padding: 7px 15px;
+        padding: 10px 22px;
+    }
+    
+    .CategoryTitle{
+        width: 40%;
+    }
+
+    .CategoryButton{
+        width: 30%;
+    }
+
+    .CategoryIcon{
+        width: 30%;
+    }
+
+    .BlankCol{
+        display: none;
+    }
+
+    .LogoCol
+    {
+        justify-content: initial;
+        width: 50%;
+    }
+
+    .LoginCol{
+        width: 50%;
+    }
+
+    .Categories{
+        padding: 20px 0;
     }
 }
