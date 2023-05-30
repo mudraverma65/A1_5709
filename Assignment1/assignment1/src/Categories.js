@@ -6,8 +6,8 @@ import finance from './finance.png';
 import architect from './architect.png';
 import it from './it.png';
 
-
 function Categories(){
+    
     return(
         <div class = 'Frame'>
             <div class = 'Categories'><h2>Categories</h2></div> 
@@ -72,10 +72,8 @@ function Categories(){
             </div>
             <div class = 'DisplayAll'>
                 <div class = 'ButtonP'>View All Listings</div>
-            </div>
-            
+            </div>  
         </div>
-
     );
 }
 

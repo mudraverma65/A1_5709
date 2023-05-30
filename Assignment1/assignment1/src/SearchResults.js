@@ -6,7 +6,6 @@ import React from 'react';
 function SearchResults(){
     const location = useLocation();
     const searchResults = location.state;
-    console.log(searchResults)
     
     return(
         <div class = "Frame">
@@ -16,7 +15,6 @@ function SearchResults(){
             </div>
             <ProfileResults searchResults={searchResults} />
         </div>
-
     );
 }
 

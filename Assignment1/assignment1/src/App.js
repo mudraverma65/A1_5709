@@ -9,9 +9,7 @@ import Footer from './Footer';
 import HomePage from './HomePage';
 import SearchResults from './SearchResults';
 import Profile from './Profile';
-
 import './styles.css';
-// import './App.css';
 
 function App() {
   return (
@@ -24,14 +22,6 @@ function App() {
       </Routes>
       <Footer/>
     </Router>
-    
-    // <div className="App">
-    //   <Header/>
-    //   {/* <Profile/> */}
-    //   {/* <SearchResults/> */}
-    //   <HomePage/>
-    //   <Footer/>
-    // </div>
   );
 }
 

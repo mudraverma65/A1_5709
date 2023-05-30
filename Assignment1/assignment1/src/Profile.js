@@ -4,9 +4,13 @@ import { useLocation } from 'react-router-dom';
 import React from 'react';
 
 function Profile(){
+
+    // Accessing the location object from react-router-dom
     const location = useLocation();
+
+    // Retrieving profileData from the location state
     const profileData = location.state.profileData;
-    console.log(profileData)
+
     return(
         <div class = 'Frame'>
             

@@ -4,11 +4,13 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function ProfileResults({searchResults}){
+    
     const navigate = useNavigate();
 
     const handleViewProfile = (profileData) => {
         navigate('/profile', { state: { profileData } });
     };
+
     return(
         <div class = 'Frame'>
             {searchResults && searchResults.length > 0 ? (

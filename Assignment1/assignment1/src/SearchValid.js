@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import SearchResults from './SearchResults';
+import { useNavigate } from 'react-router-dom';
 
 function SearchValid({searchResults}){
     const navigate = useNavigate();
