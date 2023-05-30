@@ -13,6 +13,14 @@ h3{
     color: #444444;
 }
 
+h4{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #444444;
+    margin: 0;
+}
+
 h5{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-size: 12px;
@@ -156,7 +164,7 @@ body{
     max-width: 100%;
     display: flex;
     justify-content: center;
-    margin: 10px auto;
+    margin: 50px auto 10px auto;
     background-color: #1B998B;
     border-radius: 30px;
     padding-top: 50px;
@@ -209,10 +217,10 @@ body{
     margin-left: 5px;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     background-color: #ffffff;
     border-radius: 15px;
-    padding: 5px;
+    padding: 10px;
 }
 
 input[type="text"] {
@@ -225,7 +233,7 @@ input[type="text"] {
 }
 
 .SearchIcon{
-    width: 5%;
+    width: 10%;
 }
 
 .Location{
@@ -246,8 +254,9 @@ input[type="text"] {
 }
 
 .ResultsRow{
+    padding: 10px 0;
     width: 80%;
-    margin: auto;
+    margin: 0px auto 30px auto;
     border: 2px solid #1B998B;
     border-radius: 50px;
     display: flex;
@@ -267,6 +276,10 @@ input[type="text"] {
 
 .ProfileCol{
     width: 50%;
+}
+
+.ProfileCol h3{
+    margin: 0;
 }
 
 .ProfileRatingCol{
