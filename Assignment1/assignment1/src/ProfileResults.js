@@ -7,7 +7,7 @@ function ProfileResults({searchResults}){
     const navigate = useNavigate();
 
     const handleViewProfile = (profileData) => {
-        navigate(`/profile`, { state: { profileData } });
+        navigate('/profile', { state: { profileData } });
     };
     return(
         <div class = 'Frame'>
